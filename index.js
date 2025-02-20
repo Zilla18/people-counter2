@@ -11,4 +11,5 @@ function increment() {
 
 function save() {
   console.log(count);
+  alert("count saved successfully");
 }
