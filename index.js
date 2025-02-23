@@ -1,5 +1,4 @@
 const countEl = document.getElementById("count-el");
-// const saveBTN = document.getElementById("save-btn");
 
 let count = 0;
 
@@ -13,3 +12,11 @@ function save() {
   console.log(count);
   alert("count saved successfully");
 }
+
+function decrease() {
+  count = count - 1;
+
+  countEl.innerText = count;
+}
+// let message = "You have 3 new notifications";
+// console.log(message);
